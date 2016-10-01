@@ -1,0 +1,979 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ThirdViewController"
+provides-nominal:
+- "C12FirebaseDemo19ThirdViewController"
+provides-member:
+- ["C12FirebaseDemo19ThirdViewController", ""]
+provides-dynamic-lookup:
+- "signUpButtonPressed"
+- "loginButton"
+- "touchScreen"
+- "viewDidLoad"
+- "signOut"
+- "pwInput"
+- "FBSDKSignInButton"
+- "didReceiveMemoryWarning"
+- "accountInput"
+- "viewWillAppear"
+- "prepareForSegue"
+- "signInButtonPressed"
+- "loginButtonDidLogOut"
+depends-top-level:
+- "NSError"
+- !private "print"
+- !private "!="
+- !private "LogedInViewController"
+- !private "FIRAuth"
+- "UIViewController"
+- "ThirdViewController"
+- "AnyObject"
+- "Bool"
+- !private "StringLiteralType"
+- "FBSDKLoginButton"
+- !private "GIDSignIn"
+- !private "FBSDKAccessToken"
+- "FBSDKLoginManagerLoginResult"
+- "UIStoryboardSegue"
+- !private "FIRFacebookAuthProvider"
+- "GIDSignInUIDelegate"
+- "UITextField"
+- "FBSDKLoginButtonDelegate"
+depends-member:
+- !private ["Ps9AnyObject", "FBSDKAccessToken"]
+- ["Ps9AnyObject", "FBSDKSignInButton"]
+- !private ["Ps9AnyObject", "FIRAuth"]
+- !private ["Ps9AnyObject", "FIRFacebookAuthProvider"]
+- !private ["Ps9AnyObject", "GIDSignIn"]
+- ["Ps9AnyObject", "accountInput"]
+- !private ["Ps9AnyObject", "addAuthStateDidChangeListener"]
+- !private ["Ps9AnyObject", "auth"]
+- !private ["Ps9AnyObject", "createUserWithEmail"]
+- !private ["Ps9AnyObject", "credentialWithAccessToken"]
+- !private ["Ps9AnyObject", "currentAccessToken"]
+- !private ["Ps9AnyObject", "currentUser"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "destinationViewController"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "localizedDescription"]
+- ["Ps9AnyObject", "loginButton"]
+- ["Ps9AnyObject", "loginButtonDidLogOut"]
+- ["Ps9AnyObject", "loginButtonWillLogin"]
+- !private ["Ps9AnyObject", "performSegueWithIdentifier"]
+- ["Ps9AnyObject", "prepareForSegue"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "pwInput"]
+- !private ["Ps9AnyObject", "resignFirstResponder"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "showMessagePrompt"]
+- ["Ps9AnyObject", "signIn"]
+- ["Ps9AnyObject", "signInButtonPressed"]
+- ["Ps9AnyObject", "signInWillDispatch"]
+- !private ["Ps9AnyObject", "signInWithCredential"]
+- !private ["Ps9AnyObject", "signInWithEmail"]
+- ["Ps9AnyObject", "signOut"]
+- ["Ps9AnyObject", "signUpButtonPressed"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "tokenString"]
+- ["Ps9AnyObject", "touchScreen"]
+- !private ["Ps9AnyObject", "uiDelegate"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "FBSDKAccessToken"]
+- ["Ps11CVarArgType", "FBSDKSignInButton"]
+- !private ["Ps11CVarArgType", "FIRAuth"]
+- !private ["Ps11CVarArgType", "FIRFacebookAuthProvider"]
+- !private ["Ps11CVarArgType", "GIDSignIn"]
+- ["Ps11CVarArgType", "accountInput"]
+- !private ["Ps11CVarArgType", "addAuthStateDidChangeListener"]
+- !private ["Ps11CVarArgType", "auth"]
+- !private ["Ps11CVarArgType", "createUserWithEmail"]
+- !private ["Ps11CVarArgType", "credentialWithAccessToken"]
+- !private ["Ps11CVarArgType", "currentAccessToken"]
+- !private ["Ps11CVarArgType", "currentUser"]
+- !private ["Ps11CVarArgType", "delegate"]
+- !private ["Ps11CVarArgType", "destinationViewController"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "localizedDescription"]
+- ["Ps11CVarArgType", "loginButton"]
+- ["Ps11CVarArgType", "loginButtonDidLogOut"]
+- ["Ps11CVarArgType", "loginButtonWillLogin"]
+- !private ["Ps11CVarArgType", "performSegueWithIdentifier"]
+- ["Ps11CVarArgType", "prepareForSegue"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "pwInput"]
+- !private ["Ps11CVarArgType", "resignFirstResponder"]
+- !private ["Ps11CVarArgType", "sharedInstance"]
+- !private ["Ps11CVarArgType", "showMessagePrompt"]
+- ["Ps11CVarArgType", "signIn"]
+- ["Ps11CVarArgType", "signInButtonPressed"]
+- ["Ps11CVarArgType", "signInWillDispatch"]
+- !private ["Ps11CVarArgType", "signInWithCredential"]
+- !private ["Ps11CVarArgType", "signInWithEmail"]
+- ["Ps11CVarArgType", "signOut"]
+- ["Ps11CVarArgType", "signUpButtonPressed"]
+- !private ["Ps11CVarArgType", "text"]
+- !private ["Ps11CVarArgType", "tokenString"]
+- ["Ps11CVarArgType", "touchScreen"]
+- !private ["Ps11CVarArgType", "uiDelegate"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", "viewWillAppear"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "FBSDKAccessToken"]
+- ["Ps28CustomDebugStringConvertible", "FBSDKSignInButton"]
+- !private ["Ps28CustomDebugStringConvertible", "FIRAuth"]
+- !private ["Ps28CustomDebugStringConvertible", "FIRFacebookAuthProvider"]
+- !private ["Ps28CustomDebugStringConvertible", "GIDSignIn"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "accountInput"]
+- !private ["Ps28CustomDebugStringConvertible", "addAuthStateDidChangeListener"]
+- !private ["Ps28CustomDebugStringConvertible", "auth"]
+- !private ["Ps28CustomDebugStringConvertible", "createUserWithEmail"]
+- !private ["Ps28CustomDebugStringConvertible", "credentialWithAccessToken"]
+- !private ["Ps28CustomDebugStringConvertible", "currentAccessToken"]
+- !private ["Ps28CustomDebugStringConvertible", "currentUser"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "destinationViewController"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "localizedDescription"]
+- ["Ps28CustomDebugStringConvertible", "loginButton"]
+- ["Ps28CustomDebugStringConvertible", "loginButtonDidLogOut"]
+- ["Ps28CustomDebugStringConvertible", "loginButtonWillLogin"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegueWithIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "prepareForSegue"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "pwInput"]
+- !private ["Ps28CustomDebugStringConvertible", "resignFirstResponder"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "showMessagePrompt"]
+- ["Ps28CustomDebugStringConvertible", "signIn"]
+- ["Ps28CustomDebugStringConvertible", "signInButtonPressed"]
+- ["Ps28CustomDebugStringConvertible", "signInWillDispatch"]
+- !private ["Ps28CustomDebugStringConvertible", "signInWithCredential"]
+- !private ["Ps28CustomDebugStringConvertible", "signInWithEmail"]
+- ["Ps28CustomDebugStringConvertible", "signOut"]
+- ["Ps28CustomDebugStringConvertible", "signUpButtonPressed"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "tokenString"]
+- ["Ps28CustomDebugStringConvertible", "touchScreen"]
+- !private ["Ps28CustomDebugStringConvertible", "uiDelegate"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "FBSDKAccessToken"]
+- ["Ps23CustomStringConvertible", "FBSDKSignInButton"]
+- !private ["Ps23CustomStringConvertible", "FIRAuth"]
+- !private ["Ps23CustomStringConvertible", "FIRFacebookAuthProvider"]
+- !private ["Ps23CustomStringConvertible", "GIDSignIn"]
+- ["Ps23CustomStringConvertible", "Some"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "accountInput"]
+- !private ["Ps23CustomStringConvertible", "addAuthStateDidChangeListener"]
+- !private ["Ps23CustomStringConvertible", "auth"]
+- !private ["Ps23CustomStringConvertible", "createUserWithEmail"]
+- !private ["Ps23CustomStringConvertible", "credentialWithAccessToken"]
+- !private ["Ps23CustomStringConvertible", "currentAccessToken"]
+- !private ["Ps23CustomStringConvertible", "currentUser"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "destinationViewController"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "localizedDescription"]
+- ["Ps23CustomStringConvertible", "loginButton"]
+- ["Ps23CustomStringConvertible", "loginButtonDidLogOut"]
+- ["Ps23CustomStringConvertible", "loginButtonWillLogin"]
+- !private ["Ps23CustomStringConvertible", "performSegueWithIdentifier"]
+- ["Ps23CustomStringConvertible", "prepareForSegue"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "pwInput"]
+- !private ["Ps23CustomStringConvertible", "resignFirstResponder"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- !private ["Ps23CustomStringConvertible", "showMessagePrompt"]
+- ["Ps23CustomStringConvertible", "signIn"]
+- ["Ps23CustomStringConvertible", "signInButtonPressed"]
+- ["Ps23CustomStringConvertible", "signInWillDispatch"]
+- !private ["Ps23CustomStringConvertible", "signInWithCredential"]
+- !private ["Ps23CustomStringConvertible", "signInWithEmail"]
+- ["Ps23CustomStringConvertible", "signOut"]
+- ["Ps23CustomStringConvertible", "signUpButtonPressed"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "tokenString"]
+- ["Ps23CustomStringConvertible", "touchScreen"]
+- !private ["Ps23CustomStringConvertible", "uiDelegate"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "FBSDKAccessToken"]
+- ["Ps9Equatable", "FBSDKSignInButton"]
+- !private ["Ps9Equatable", "FIRAuth"]
+- !private ["Ps9Equatable", "FIRFacebookAuthProvider"]
+- !private ["Ps9Equatable", "GIDSignIn"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "accountInput"]
+- !private ["Ps9Equatable", "addAuthStateDidChangeListener"]
+- !private ["Ps9Equatable", "auth"]
+- !private ["Ps9Equatable", "createUserWithEmail"]
+- !private ["Ps9Equatable", "credentialWithAccessToken"]
+- !private ["Ps9Equatable", "currentAccessToken"]
+- !private ["Ps9Equatable", "currentUser"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "destinationViewController"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "localizedDescription"]
+- ["Ps9Equatable", "loginButton"]
+- ["Ps9Equatable", "loginButtonDidLogOut"]
+- ["Ps9Equatable", "loginButtonWillLogin"]
+- !private ["Ps9Equatable", "performSegueWithIdentifier"]
+- ["Ps9Equatable", "prepareForSegue"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "pwInput"]
+- !private ["Ps9Equatable", "resignFirstResponder"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- !private ["Ps9Equatable", "showMessagePrompt"]
+- ["Ps9Equatable", "signIn"]
+- ["Ps9Equatable", "signInButtonPressed"]
+- ["Ps9Equatable", "signInWillDispatch"]
+- !private ["Ps9Equatable", "signInWithCredential"]
+- !private ["Ps9Equatable", "signInWithEmail"]
+- ["Ps9Equatable", "signOut"]
+- ["Ps9Equatable", "signUpButtonPressed"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "tokenString"]
+- ["Ps9Equatable", "touchScreen"]
+- !private ["Ps9Equatable", "uiDelegate"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", ""]
+- !private ["Ps9ErrorType", "localizedDescription"]
+- !private ["CSo16FBSDKAccessToken", "currentAccessToken"]
+- !private ["CSo16FBSDKAccessToken", "tokenString"]
+- !private ["CSo11FBSDKButton", "delegate"]
+- !private ["PSo12FBSDKCopying", "currentAccessToken"]
+- !private ["PSo12FBSDKCopying", "tokenString"]
+- !private ["CSo16FBSDKLoginButton", "delegate"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "FBSDKAccessToken"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "FBSDKSignInButton"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "FIRAuth"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "FIRFacebookAuthProvider"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "GIDSignIn"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "accountInput"]
+- ["PSo24FBSDKLoginButtonDelegate", "loginButton"]
+- ["PSo24FBSDKLoginButtonDelegate", "loginButtonDidLogOut"]
+- ["PSo24FBSDKLoginButtonDelegate", "loginButtonWillLogin"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "performSegueWithIdentifier"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "print"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "pwInput"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "showMessagePrompt"]
+- ["PSo24FBSDKLoginButtonDelegate", "signIn"]
+- ["PSo24FBSDKLoginButtonDelegate", "signInWillDispatch"]
+- ["PSo24FBSDKLoginButtonDelegate", ""]
+- !private ["CSo7FIRAuth", "addAuthStateDidChangeListener"]
+- !private ["CSo7FIRAuth", "auth"]
+- !private ["CSo7FIRAuth", "createUserWithEmail"]
+- !private ["CSo7FIRAuth", "currentUser"]
+- !private ["CSo7FIRAuth", "signInWithCredential"]
+- !private ["CSo7FIRAuth", "signInWithEmail"]
+- !private ["CSo7FIRAuth", "signOut"]
+- !private ["CSo23FIRFacebookAuthProvider", "credentialWithAccessToken"]
+- !private ["CSo9GIDSignIn", "sharedInstance"]
+- !private ["CSo9GIDSignIn", "uiDelegate"]
+- !private ["PSo19GIDSignInUIDelegate", "FBSDKAccessToken"]
+- !private ["PSo19GIDSignInUIDelegate", "FBSDKSignInButton"]
+- !private ["PSo19GIDSignInUIDelegate", "FIRAuth"]
+- !private ["PSo19GIDSignInUIDelegate", "FIRFacebookAuthProvider"]
+- !private ["PSo19GIDSignInUIDelegate", "GIDSignIn"]
+- !private ["PSo19GIDSignInUIDelegate", "accountInput"]
+- ["PSo19GIDSignInUIDelegate", "loginButton"]
+- ["PSo19GIDSignInUIDelegate", "loginButtonDidLogOut"]
+- ["PSo19GIDSignInUIDelegate", "loginButtonWillLogin"]
+- !private ["PSo19GIDSignInUIDelegate", "performSegueWithIdentifier"]
+- !private ["PSo19GIDSignInUIDelegate", "print"]
+- !private ["PSo19GIDSignInUIDelegate", "pwInput"]
+- !private ["PSo19GIDSignInUIDelegate", "showMessagePrompt"]
+- ["PSo19GIDSignInUIDelegate", "signIn"]
+- ["PSo19GIDSignInUIDelegate", "signInWillDispatch"]
+- ["PSo19GIDSignInUIDelegate", ""]
+- !private ["Ps8Hashable", "FBSDKAccessToken"]
+- ["Ps8Hashable", "FBSDKSignInButton"]
+- !private ["Ps8Hashable", "FIRAuth"]
+- !private ["Ps8Hashable", "FIRFacebookAuthProvider"]
+- !private ["Ps8Hashable", "GIDSignIn"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "accountInput"]
+- !private ["Ps8Hashable", "addAuthStateDidChangeListener"]
+- !private ["Ps8Hashable", "auth"]
+- !private ["Ps8Hashable", "createUserWithEmail"]
+- !private ["Ps8Hashable", "credentialWithAccessToken"]
+- !private ["Ps8Hashable", "currentAccessToken"]
+- !private ["Ps8Hashable", "currentUser"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "destinationViewController"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "localizedDescription"]
+- ["Ps8Hashable", "loginButton"]
+- ["Ps8Hashable", "loginButtonDidLogOut"]
+- ["Ps8Hashable", "loginButtonWillLogin"]
+- !private ["Ps8Hashable", "performSegueWithIdentifier"]
+- ["Ps8Hashable", "prepareForSegue"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "pwInput"]
+- !private ["Ps8Hashable", "resignFirstResponder"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- !private ["Ps8Hashable", "showMessagePrompt"]
+- ["Ps8Hashable", "signIn"]
+- ["Ps8Hashable", "signInButtonPressed"]
+- ["Ps8Hashable", "signInWillDispatch"]
+- !private ["Ps8Hashable", "signInWithCredential"]
+- !private ["Ps8Hashable", "signInWithEmail"]
+- ["Ps8Hashable", "signOut"]
+- ["Ps8Hashable", "signUpButtonPressed"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "tokenString"]
+- ["Ps8Hashable", "touchScreen"]
+- !private ["Ps8Hashable", "uiDelegate"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", ""]
+- ["SQ", "Some"]
+- !private ["PSo8NSCoding", "FBSDKAccessToken"]
+- ["PSo8NSCoding", "FBSDKSignInButton"]
+- !private ["PSo8NSCoding", "FIRAuth"]
+- !private ["PSo8NSCoding", "FIRFacebookAuthProvider"]
+- !private ["PSo8NSCoding", "GIDSignIn"]
+- ["PSo8NSCoding", "accountInput"]
+- !private ["PSo8NSCoding", "currentAccessToken"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- ["PSo8NSCoding", "loginButton"]
+- ["PSo8NSCoding", "loginButtonDidLogOut"]
+- ["PSo8NSCoding", "loginButtonWillLogin"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "pwInput"]
+- !private ["PSo8NSCoding", "resignFirstResponder"]
+- !private ["PSo8NSCoding", "showMessagePrompt"]
+- ["PSo8NSCoding", "signIn"]
+- ["PSo8NSCoding", "signInButtonPressed"]
+- ["PSo8NSCoding", "signInWillDispatch"]
+- ["PSo8NSCoding", "signOut"]
+- ["PSo8NSCoding", "signUpButtonPressed"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "tokenString"]
+- ["PSo8NSCoding", "touchScreen"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "currentAccessToken"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["PSo9NSCopying", "tokenString"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKAccessToken"]
+- ["PSo26NSExtensionRequestHandling", "FBSDKSignInButton"]
+- !private ["PSo26NSExtensionRequestHandling", "FIRAuth"]
+- !private ["PSo26NSExtensionRequestHandling", "FIRFacebookAuthProvider"]
+- !private ["PSo26NSExtensionRequestHandling", "GIDSignIn"]
+- ["PSo26NSExtensionRequestHandling", "accountInput"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loginButton"]
+- ["PSo26NSExtensionRequestHandling", "loginButtonDidLogOut"]
+- ["PSo26NSExtensionRequestHandling", "loginButtonWillLogin"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "pwInput"]
+- !private ["PSo26NSExtensionRequestHandling", "showMessagePrompt"]
+- ["PSo26NSExtensionRequestHandling", "signIn"]
+- ["PSo26NSExtensionRequestHandling", "signInButtonPressed"]
+- ["PSo26NSExtensionRequestHandling", "signInWillDispatch"]
+- ["PSo26NSExtensionRequestHandling", "signOut"]
+- ["PSo26NSExtensionRequestHandling", "signUpButtonPressed"]
+- ["PSo26NSExtensionRequestHandling", "touchScreen"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FBSDKAccessToken"]
+- ["CSo8NSObject", "FBSDKLoginButton"]
+- ["CSo8NSObject", "FBSDKLoginManagerLoginResult"]
+- ["CSo8NSObject", "FBSDKSignInButton"]
+- !private ["CSo8NSObject", "FIRAuth"]
+- !private ["CSo8NSObject", "FIRFacebookAuthProvider"]
+- !private ["CSo8NSObject", "GIDSignIn"]
+- !private ["CSo8NSObject", "LogedInViewController"]
+- ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "accountInput"]
+- !private ["CSo8NSObject", "addAuthStateDidChangeListener"]
+- !private ["CSo8NSObject", "auth"]
+- !private ["CSo8NSObject", "createUserWithEmail"]
+- !private ["CSo8NSObject", "credentialWithAccessToken"]
+- !private ["CSo8NSObject", "currentAccessToken"]
+- !private ["CSo8NSObject", "currentUser"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- ["CSo8NSObject", "loginButton"]
+- ["CSo8NSObject", "loginButtonDidLogOut"]
+- ["CSo8NSObject", "loginButtonWillLogin"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- ["CSo8NSObject", "prepareForSegue"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "pwInput"]
+- !private ["CSo8NSObject", "resignFirstResponder"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "showMessagePrompt"]
+- ["CSo8NSObject", "signIn"]
+- ["CSo8NSObject", "signInButtonPressed"]
+- ["CSo8NSObject", "signInWillDispatch"]
+- !private ["CSo8NSObject", "signInWithCredential"]
+- !private ["CSo8NSObject", "signInWithEmail"]
+- ["CSo8NSObject", "signOut"]
+- ["CSo8NSObject", "signUpButtonPressed"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "tokenString"]
+- ["CSo8NSObject", "touchScreen"]
+- !private ["CSo8NSObject", "uiDelegate"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- !private ["PSo16NSObjectProtocol", "FBSDKAccessToken"]
+- ["PSo16NSObjectProtocol", "FBSDKSignInButton"]
+- !private ["PSo16NSObjectProtocol", "FIRAuth"]
+- !private ["PSo16NSObjectProtocol", "FIRFacebookAuthProvider"]
+- !private ["PSo16NSObjectProtocol", "GIDSignIn"]
+- ["PSo16NSObjectProtocol", "accountInput"]
+- !private ["PSo16NSObjectProtocol", "addAuthStateDidChangeListener"]
+- !private ["PSo16NSObjectProtocol", "auth"]
+- !private ["PSo16NSObjectProtocol", "createUserWithEmail"]
+- !private ["PSo16NSObjectProtocol", "credentialWithAccessToken"]
+- !private ["PSo16NSObjectProtocol", "currentAccessToken"]
+- !private ["PSo16NSObjectProtocol", "currentUser"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- ["PSo16NSObjectProtocol", "loginButton"]
+- ["PSo16NSObjectProtocol", "loginButtonDidLogOut"]
+- ["PSo16NSObjectProtocol", "loginButtonWillLogin"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "pwInput"]
+- !private ["PSo16NSObjectProtocol", "resignFirstResponder"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "showMessagePrompt"]
+- ["PSo16NSObjectProtocol", "signIn"]
+- ["PSo16NSObjectProtocol", "signInButtonPressed"]
+- ["PSo16NSObjectProtocol", "signInWillDispatch"]
+- !private ["PSo16NSObjectProtocol", "signInWithCredential"]
+- !private ["PSo16NSObjectProtocol", "signInWithEmail"]
+- ["PSo16NSObjectProtocol", "signOut"]
+- ["PSo16NSObjectProtocol", "signUpButtonPressed"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "tokenString"]
+- ["PSo16NSObjectProtocol", "touchScreen"]
+- !private ["PSo16NSObjectProtocol", "uiDelegate"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "currentAccessToken"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["PSo14NSSecureCoding", "tokenString"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- ["C12FirebaseDemo19ThirdViewController", "AnyObject"]
+- ["C12FirebaseDemo19ThirdViewController", "Bool"]
+- !private ["C12FirebaseDemo19ThirdViewController", "FBSDKAccessToken"]
+- ["C12FirebaseDemo19ThirdViewController", "FBSDKLoginButton"]
+- ["C12FirebaseDemo19ThirdViewController", "FBSDKLoginManagerLoginResult"]
+- ["C12FirebaseDemo19ThirdViewController", "FBSDKSignInButton"]
+- !private ["C12FirebaseDemo19ThirdViewController", "FIRAuth"]
+- !private ["C12FirebaseDemo19ThirdViewController", "FIRFacebookAuthProvider"]
+- !private ["C12FirebaseDemo19ThirdViewController", "GIDSignIn"]
+- !private ["C12FirebaseDemo19ThirdViewController", "LogedInViewController"]
+- ["C12FirebaseDemo19ThirdViewController", "NSError"]
+- ["C12FirebaseDemo19ThirdViewController", "UIStoryboardSegue"]
+- ["C12FirebaseDemo19ThirdViewController", "UITextField"]
+- ["C12FirebaseDemo19ThirdViewController", "accountInput"]
+- ["C12FirebaseDemo19ThirdViewController", "deinit"]
+- ["C12FirebaseDemo19ThirdViewController", "didReceiveMemoryWarning"]
+- ["C12FirebaseDemo19ThirdViewController", "init"]
+- ["C12FirebaseDemo19ThirdViewController", "loginButton"]
+- ["C12FirebaseDemo19ThirdViewController", "loginButtonDidLogOut"]
+- ["C12FirebaseDemo19ThirdViewController", "loginButtonWillLogin"]
+- !private ["C12FirebaseDemo19ThirdViewController", "performSegueWithIdentifier"]
+- ["C12FirebaseDemo19ThirdViewController", "prepareForSegue"]
+- !private ["C12FirebaseDemo19ThirdViewController", "print"]
+- ["C12FirebaseDemo19ThirdViewController", "pwInput"]
+- !private ["C12FirebaseDemo19ThirdViewController", "showMessagePrompt"]
+- ["C12FirebaseDemo19ThirdViewController", "signIn"]
+- ["C12FirebaseDemo19ThirdViewController", "signInButtonPressed"]
+- ["C12FirebaseDemo19ThirdViewController", "signInWillDispatch"]
+- ["C12FirebaseDemo19ThirdViewController", "signOut"]
+- ["C12FirebaseDemo19ThirdViewController", "signUpButtonPressed"]
+- ["C12FirebaseDemo19ThirdViewController", "touchScreen"]
+- ["C12FirebaseDemo19ThirdViewController", "viewDidLoad"]
+- ["C12FirebaseDemo19ThirdViewController", "viewWillAppear"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "resignFirstResponder"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "resignFirstResponder"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKAccessToken"]
+- ["PSo21UIAppearanceContainer", "FBSDKSignInButton"]
+- !private ["PSo21UIAppearanceContainer", "FIRAuth"]
+- !private ["PSo21UIAppearanceContainer", "FIRFacebookAuthProvider"]
+- !private ["PSo21UIAppearanceContainer", "GIDSignIn"]
+- ["PSo21UIAppearanceContainer", "accountInput"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loginButton"]
+- ["PSo21UIAppearanceContainer", "loginButtonDidLogOut"]
+- ["PSo21UIAppearanceContainer", "loginButtonWillLogin"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "pwInput"]
+- !private ["PSo21UIAppearanceContainer", "resignFirstResponder"]
+- !private ["PSo21UIAppearanceContainer", "showMessagePrompt"]
+- ["PSo21UIAppearanceContainer", "signIn"]
+- ["PSo21UIAppearanceContainer", "signInButtonPressed"]
+- ["PSo21UIAppearanceContainer", "signInWillDispatch"]
+- ["PSo21UIAppearanceContainer", "signOut"]
+- ["PSo21UIAppearanceContainer", "signUpButtonPressed"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "touchScreen"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "delegate"]
+- !private ["PSo18UIContentContainer", "FBSDKAccessToken"]
+- ["PSo18UIContentContainer", "FBSDKSignInButton"]
+- !private ["PSo18UIContentContainer", "FIRAuth"]
+- !private ["PSo18UIContentContainer", "FIRFacebookAuthProvider"]
+- !private ["PSo18UIContentContainer", "GIDSignIn"]
+- ["PSo18UIContentContainer", "accountInput"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loginButton"]
+- ["PSo18UIContentContainer", "loginButtonDidLogOut"]
+- ["PSo18UIContentContainer", "loginButtonWillLogin"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "pwInput"]
+- !private ["PSo18UIContentContainer", "showMessagePrompt"]
+- ["PSo18UIContentContainer", "signIn"]
+- ["PSo18UIContentContainer", "signInButtonPressed"]
+- ["PSo18UIContentContainer", "signInWillDispatch"]
+- ["PSo18UIContentContainer", "signOut"]
+- ["PSo18UIContentContainer", "signUpButtonPressed"]
+- ["PSo18UIContentContainer", "touchScreen"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "delegate"]
+- !private ["CSo9UIControl", "resignFirstResponder"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "resignFirstResponder"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "resignFirstResponder"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "FBSDKAccessToken"]
+- ["PSo18UIFocusEnvironment", "FBSDKSignInButton"]
+- !private ["PSo18UIFocusEnvironment", "FIRAuth"]
+- !private ["PSo18UIFocusEnvironment", "FIRFacebookAuthProvider"]
+- !private ["PSo18UIFocusEnvironment", "GIDSignIn"]
+- ["PSo18UIFocusEnvironment", "accountInput"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loginButton"]
+- ["PSo18UIFocusEnvironment", "loginButtonDidLogOut"]
+- ["PSo18UIFocusEnvironment", "loginButtonWillLogin"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "pwInput"]
+- !private ["PSo18UIFocusEnvironment", "resignFirstResponder"]
+- !private ["PSo18UIFocusEnvironment", "showMessagePrompt"]
+- ["PSo18UIFocusEnvironment", "signIn"]
+- ["PSo18UIFocusEnvironment", "signInButtonPressed"]
+- ["PSo18UIFocusEnvironment", "signInWillDispatch"]
+- ["PSo18UIFocusEnvironment", "signOut"]
+- ["PSo18UIFocusEnvironment", "signUpButtonPressed"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "touchScreen"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "resignFirstResponder"]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FBSDKAccessToken"]
+- ["CSo11UIResponder", "FBSDKLoginButton"]
+- ["CSo11UIResponder", "FBSDKLoginManagerLoginResult"]
+- ["CSo11UIResponder", "FBSDKSignInButton"]
+- !private ["CSo11UIResponder", "FIRAuth"]
+- !private ["CSo11UIResponder", "FIRFacebookAuthProvider"]
+- !private ["CSo11UIResponder", "GIDSignIn"]
+- !private ["CSo11UIResponder", "LogedInViewController"]
+- ["CSo11UIResponder", "NSError"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "accountInput"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loginButton"]
+- ["CSo11UIResponder", "loginButtonDidLogOut"]
+- ["CSo11UIResponder", "loginButtonWillLogin"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "pwInput"]
+- !private ["CSo11UIResponder", "resignFirstResponder"]
+- !private ["CSo11UIResponder", "showMessagePrompt"]
+- ["CSo11UIResponder", "signIn"]
+- ["CSo11UIResponder", "signInButtonPressed"]
+- ["CSo11UIResponder", "signInWillDispatch"]
+- ["CSo11UIResponder", "signOut"]
+- ["CSo11UIResponder", "signUpButtonPressed"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "touchScreen"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- !private ["PSo16UIStateRestoring", "FBSDKAccessToken"]
+- ["PSo16UIStateRestoring", "FBSDKSignInButton"]
+- !private ["PSo16UIStateRestoring", "FIRAuth"]
+- !private ["PSo16UIStateRestoring", "FIRFacebookAuthProvider"]
+- !private ["PSo16UIStateRestoring", "GIDSignIn"]
+- ["PSo16UIStateRestoring", "accountInput"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loginButton"]
+- ["PSo16UIStateRestoring", "loginButtonDidLogOut"]
+- ["PSo16UIStateRestoring", "loginButtonWillLogin"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "pwInput"]
+- !private ["PSo16UIStateRestoring", "showMessagePrompt"]
+- ["PSo16UIStateRestoring", "signIn"]
+- ["PSo16UIStateRestoring", "signInButtonPressed"]
+- ["PSo16UIStateRestoring", "signInWillDispatch"]
+- ["PSo16UIStateRestoring", "signOut"]
+- ["PSo16UIStateRestoring", "signUpButtonPressed"]
+- ["PSo16UIStateRestoring", "touchScreen"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["CSo11UITextField", "resignFirstResponder"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "resignFirstResponder"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "resignFirstResponder"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "FBSDKAccessToken"]
+- ["PSo18UITraitEnvironment", "FBSDKSignInButton"]
+- !private ["PSo18UITraitEnvironment", "FIRAuth"]
+- !private ["PSo18UITraitEnvironment", "FIRFacebookAuthProvider"]
+- !private ["PSo18UITraitEnvironment", "GIDSignIn"]
+- ["PSo18UITraitEnvironment", "accountInput"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loginButton"]
+- ["PSo18UITraitEnvironment", "loginButtonDidLogOut"]
+- ["PSo18UITraitEnvironment", "loginButtonWillLogin"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "pwInput"]
+- !private ["PSo18UITraitEnvironment", "resignFirstResponder"]
+- !private ["PSo18UITraitEnvironment", "showMessagePrompt"]
+- ["PSo18UITraitEnvironment", "signIn"]
+- ["PSo18UITraitEnvironment", "signInButtonPressed"]
+- ["PSo18UITraitEnvironment", "signInWillDispatch"]
+- ["PSo18UITraitEnvironment", "signOut"]
+- ["PSo18UITraitEnvironment", "signUpButtonPressed"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "touchScreen"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "delegate"]
+- !private ["CSo6UIView", "resignFirstResponder"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "FBSDKAccessToken"]
+- ["CSo16UIViewController", "FBSDKLoginButton"]
+- ["CSo16UIViewController", "FBSDKLoginManagerLoginResult"]
+- ["CSo16UIViewController", "FBSDKSignInButton"]
+- !private ["CSo16UIViewController", "FIRAuth"]
+- !private ["CSo16UIViewController", "FIRFacebookAuthProvider"]
+- !private ["CSo16UIViewController", "GIDSignIn"]
+- !private ["CSo16UIViewController", "LogedInViewController"]
+- ["CSo16UIViewController", "NSError"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "accountInput"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loginButton"]
+- ["CSo16UIViewController", "loginButtonDidLogOut"]
+- ["CSo16UIViewController", "loginButtonWillLogin"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "pwInput"]
+- !private ["CSo16UIViewController", "showMessagePrompt"]
+- ["CSo16UIViewController", "signIn"]
+- ["CSo16UIViewController", "signInButtonPressed"]
+- ["CSo16UIViewController", "signInWillDispatch"]
+- ["CSo16UIViewController", "signOut"]
+- ["CSo16UIViewController", "signUpButtonPressed"]
+- ["CSo16UIViewController", "touchScreen"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "Some"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "delegate"]
+- !private ["Ps12_Reflectable", "resignFirstResponder"]
+- !private ["Ps12_Reflectable", "text"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "CSo16FBSDKAccessToken"
+- !private "CSo11FBSDKButton"
+- !private "PSo12FBSDKCopying"
+- !private "CSo16FBSDKLoginButton"
+- "PSo24FBSDKLoginButtonDelegate"
+- !private "CSo7FIRAuth"
+- !private "CSo23FIRFacebookAuthProvider"
+- !private "CSo9GIDSignIn"
+- "PSo19GIDSignInUIDelegate"
+- "Ps8Hashable"
+- "SQ"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "C12FirebaseDemo19ThirdViewController"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/FirebaseDemo-Bridging-Header.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/Firebase/Headers/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/./UIViewController+Alerts.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "./FBSDKCoreKit.framework/Modules/module.modulemap"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "./FBSDKLoginKit.framework/Modules/module.modulemap"
+- "./FBSDKShareKit.framework/Headers/FBSDKSendButton.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareMediaContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareDialogMode.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareDialog.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKSharingButton.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareButton.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKMessageDialog.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKLikeControl.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKLiking.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKLikeObjectType.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKLikeButton.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKGameRequestDialog.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKGameRequestContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKAppInviteDialog.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKAppInviteContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKAppGroupJoinDialog.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKAppGroupContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKAppGroupAddDialog.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareVideoContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareVideo.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKSharePhotoContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKSharePhoto.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphAction.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareLinkContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareConstants.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKSharingContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKSharing.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphValueContainer.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphObject.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareAPI.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKHashtag.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareKit.h"
+- "./FBSDKShareKit.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAppIndexing/Frameworks/FirebaseAppIndexing.framework/Headers/FIRAppIndexing.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAppIndexing/Frameworks/FirebaseAppIndexing.framework/Headers/FirebaseAppIndexing.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAppIndexing/Frameworks/FirebaseAppIndexing.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Headers/FIRCrashLog.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Headers/FirebaseCrash.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FIRDynamicLinks.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FIRDynamicLink.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FirebaseDynamicLinks.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Headers/FIRInvitesTargetApplication.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Headers/FIRInvitesError.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Headers/FIRInvites.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Headers/FirebaseInvites.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/Firebase/Headers/Firebase.h"
+interface-hash: "d38f4144edfd9560742150b7f1a6922a"

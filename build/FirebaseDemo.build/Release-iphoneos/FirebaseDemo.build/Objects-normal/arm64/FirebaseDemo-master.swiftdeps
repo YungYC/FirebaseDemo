@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "3aaa57a4219c438712671b58c409f18e"
+build_time: [522014792, 996373000]
+inputs:
+  "/Users/Duncan/projects/iOS practice/FirebaseDemo/FirebaseDemo/YUNG.swift": [520444901, 0]
+  "/Users/Duncan/projects/iOS practice/FirebaseDemo/FirebaseDemo/LogedInViewController.swift": [520272155, 0]
+  "/Users/Duncan/projects/iOS practice/FirebaseDemo/FirebaseDemo/SecondViewController.swift": [519932862, 0]
+  "/Users/Duncan/projects/iOS practice/FirebaseDemo/FirebaseDemo/AppDelegate.swift": [520268059, 0]
+  "/Users/Duncan/projects/iOS practice/FirebaseDemo/FirebaseDemo/DetailViewController.swift": [520444901, 0]
+  "/Users/Duncan/projects/iOS practice/FirebaseDemo/FirebaseDemo/ThirdViewController.swift": [520339119, 0]
+  "/Users/Duncan/projects/iOS practice/FirebaseDemo/FirebaseDemo/FirstViewController.swift": [520687425, 0]

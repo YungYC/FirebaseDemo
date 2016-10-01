@@ -1,0 +1,424 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LogedInViewController"
+provides-nominal:
+- "C12FirebaseDemo21LogedInViewController"
+provides-member:
+- ["C12FirebaseDemo21LogedInViewController", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "loggedOutButtonPressed"
+- "viewWillAppear"
+- "viewDidLoad"
+depends-top-level:
+- "AnyObject"
+- !private "UIBarButtonItemStyle"
+- !private "UIBarButtonItem"
+- !private "StringLiteralType"
+- "Bool"
+- "LogedInViewController"
+- !private "BooleanLiteralType"
+- "UIViewController"
+depends-member:
+- !private ["Ps9AnyObject", "UIBarButtonItem"]
+- !private ["Ps9AnyObject", "UIBarButtonItemStyle"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "leftBarButtonItem"]
+- ["Ps9AnyObject", "loggedOutButtonPressed"]
+- !private ["Ps9AnyObject", "navigationController"]
+- !private ["Ps9AnyObject", "navigationItem"]
+- !private ["Ps9AnyObject", "popViewControllerAnimated"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "UIBarButtonItem"]
+- !private ["Ps11CVarArgType", "UIBarButtonItemStyle"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "leftBarButtonItem"]
+- ["Ps11CVarArgType", "loggedOutButtonPressed"]
+- !private ["Ps11CVarArgType", "navigationController"]
+- !private ["Ps11CVarArgType", "navigationItem"]
+- !private ["Ps11CVarArgType", "popViewControllerAnimated"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", "viewWillAppear"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItem"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItemStyle"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "leftBarButtonItem"]
+- ["Ps28CustomDebugStringConvertible", "loggedOutButtonPressed"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationController"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
+- !private ["Ps28CustomDebugStringConvertible", "popViewControllerAnimated"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "UIBarButtonItem"]
+- !private ["Ps23CustomStringConvertible", "UIBarButtonItemStyle"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "leftBarButtonItem"]
+- ["Ps23CustomStringConvertible", "loggedOutButtonPressed"]
+- !private ["Ps23CustomStringConvertible", "navigationController"]
+- !private ["Ps23CustomStringConvertible", "navigationItem"]
+- !private ["Ps23CustomStringConvertible", "popViewControllerAnimated"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Plain"]
+- !private ["Ps9Equatable", "UIBarButtonItem"]
+- !private ["Ps9Equatable", "UIBarButtonItemStyle"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "leftBarButtonItem"]
+- ["Ps9Equatable", "loggedOutButtonPressed"]
+- !private ["Ps9Equatable", "navigationController"]
+- !private ["Ps9Equatable", "navigationItem"]
+- !private ["Ps9Equatable", "popViewControllerAnimated"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "Plain"]
+- !private ["Ps8Hashable", "UIBarButtonItem"]
+- !private ["Ps8Hashable", "UIBarButtonItemStyle"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "leftBarButtonItem"]
+- ["Ps8Hashable", "loggedOutButtonPressed"]
+- !private ["Ps8Hashable", "navigationController"]
+- !private ["Ps8Hashable", "navigationItem"]
+- !private ["Ps8Hashable", "popViewControllerAnimated"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", ""]
+- ["C12FirebaseDemo21LogedInViewController", "AnyObject"]
+- ["C12FirebaseDemo21LogedInViewController", "Bool"]
+- !private ["C12FirebaseDemo21LogedInViewController", "UIBarButtonItem"]
+- !private ["C12FirebaseDemo21LogedInViewController", "UIBarButtonItemStyle"]
+- ["C12FirebaseDemo21LogedInViewController", "deinit"]
+- ["C12FirebaseDemo21LogedInViewController", "didReceiveMemoryWarning"]
+- ["C12FirebaseDemo21LogedInViewController", "init"]
+- ["C12FirebaseDemo21LogedInViewController", "loggedOutButtonPressed"]
+- !private ["C12FirebaseDemo21LogedInViewController", "navigationController"]
+- !private ["C12FirebaseDemo21LogedInViewController", "navigationItem"]
+- ["C12FirebaseDemo21LogedInViewController", "viewDidLoad"]
+- ["C12FirebaseDemo21LogedInViewController", "viewWillAppear"]
+- !private ["PSo8NSCoding", "UIBarButtonItem"]
+- !private ["PSo8NSCoding", "UIBarButtonItemStyle"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "leftBarButtonItem"]
+- ["PSo8NSCoding", "loggedOutButtonPressed"]
+- !private ["PSo8NSCoding", "navigationController"]
+- !private ["PSo8NSCoding", "navigationItem"]
+- !private ["PSo8NSCoding", "popViewControllerAnimated"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItem"]
+- !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItemStyle"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loggedOutButtonPressed"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
+- !private ["PSo26NSExtensionRequestHandling", "popViewControllerAnimated"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "UIBarButtonItem"]
+- !private ["CSo8NSObject", "UIBarButtonItemStyle"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "leftBarButtonItem"]
+- ["CSo8NSObject", "loggedOutButtonPressed"]
+- !private ["CSo8NSObject", "navigationController"]
+- !private ["CSo8NSObject", "navigationItem"]
+- !private ["CSo8NSObject", "popViewControllerAnimated"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonItemStyle"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "leftBarButtonItem"]
+- ["PSo16NSObjectProtocol", "loggedOutButtonPressed"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
+- !private ["PSo16NSObjectProtocol", "popViewControllerAnimated"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "Plain"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo21UIAppearanceContainer", "UIBarButtonItem"]
+- !private ["PSo21UIAppearanceContainer", "UIBarButtonItemStyle"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loggedOutButtonPressed"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- !private ["PSo21UIAppearanceContainer", "popViewControllerAnimated"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo15UIBarButtonItem", "init"]
+- !private ["OSC20UIBarButtonItemStyle", "Plain"]
+- !private ["CSo9UIBarItem", "init"]
+- !private ["PSo18UIContentContainer", "UIBarButtonItem"]
+- !private ["PSo18UIContentContainer", "UIBarButtonItemStyle"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loggedOutButtonPressed"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
+- !private ["PSo18UIContentContainer", "popViewControllerAnimated"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UIFocusEnvironment", "UIBarButtonItemStyle"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loggedOutButtonPressed"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- !private ["PSo18UIFocusEnvironment", "popViewControllerAnimated"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo22UINavigationController", "popViewControllerAnimated"]
+- !private ["CSo16UINavigationItem", "leftBarButtonItem"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "UIBarButtonItem"]
+- !private ["CSo11UIResponder", "UIBarButtonItemStyle"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loggedOutButtonPressed"]
+- !private ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "navigationItem"]
+- !private ["CSo11UIResponder", "popViewControllerAnimated"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- !private ["PSo16UIStateRestoring", "UIBarButtonItem"]
+- !private ["PSo16UIStateRestoring", "UIBarButtonItemStyle"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loggedOutButtonPressed"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
+- !private ["PSo16UIStateRestoring", "popViewControllerAnimated"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UITraitEnvironment", "UIBarButtonItemStyle"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loggedOutButtonPressed"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
+- !private ["PSo18UITraitEnvironment", "popViewControllerAnimated"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "UIBarButtonItem"]
+- !private ["CSo16UIViewController", "UIBarButtonItemStyle"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loggedOutButtonPressed"]
+- !private ["CSo16UIViewController", "navigationController"]
+- !private ["CSo16UIViewController", "navigationItem"]
+- !private ["CSo16UIViewController", "popViewControllerAnimated"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C12FirebaseDemo21LogedInViewController"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "Ps16RawRepresentable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo15UIBarButtonItem"
+- !private "OSC20UIBarButtonItemStyle"
+- !private "CSo9UIBarItem"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- !private "CSo22UINavigationController"
+- !private "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/FirebaseDemo-Bridging-Header.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/Firebase/Headers/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/./UIViewController+Alerts.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "./FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "./FBSDKCoreKit.framework/Modules/module.modulemap"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "./FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "./FBSDKLoginKit.framework/Modules/module.modulemap"
+- "./FBSDKShareKit.framework/Headers/FBSDKSendButton.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareMediaContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareDialogMode.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareDialog.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKSharingButton.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareButton.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKMessageDialog.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKLikeControl.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKLiking.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKLikeObjectType.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKLikeButton.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKGameRequestDialog.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKGameRequestContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKAppInviteDialog.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKAppInviteContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKAppGroupJoinDialog.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKAppGroupContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKAppGroupAddDialog.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareVideoContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareVideo.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKSharePhotoContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKSharePhoto.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphAction.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareLinkContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareConstants.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKSharingContent.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKSharing.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphValueContainer.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphObject.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareAPI.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKHashtag.h"
+- "./FBSDKShareKit.framework/Headers/FBSDKShareKit.h"
+- "./FBSDKShareKit.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAppIndexing/Frameworks/FirebaseAppIndexing.framework/Headers/FIRAppIndexing.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAppIndexing/Frameworks/FirebaseAppIndexing.framework/Headers/FirebaseAppIndexing.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAppIndexing/Frameworks/FirebaseAppIndexing.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Headers/FIRCrashLog.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Headers/FirebaseCrash.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseCrash/Frameworks/FirebaseCrash.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FIRDynamicLinks.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FIRDynamicLink.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Headers/FirebaseDynamicLinks.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseDynamicLinks/Frameworks/FirebaseDynamicLinks.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Headers/FIRInvitesTargetApplication.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Headers/FIRInvitesError.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Headers/FIRInvites.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Headers/FirebaseInvites.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseInvites/Frameworks/FirebaseInvites.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/Duncan/projects/iOS practice/FirebaseDemo/Pods/Firebase/Headers/Firebase.h"
+interface-hash: "50c63248ea59f0677cb6515bf19b7fda"
